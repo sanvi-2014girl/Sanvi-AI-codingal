@@ -9,3 +9,6 @@ def analyze_sentiment(text):
         return "Negative"
     else: 
         return "Neutral"
+
+ans=analyze_sentiment("I love reading books.")
+print(ans)
